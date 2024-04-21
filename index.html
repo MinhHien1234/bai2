@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="trangtri.css">
+</head>
+<body>
+    <div class="clock-container">
+        <h1>Alarm Clock</h1>
+        <div>
+            <input type="number" id="minutesInput" placeholder="Minutes">
+            <input type="number" id="secondsInput" placeholder="Seconds">
+        </div>
+        <div class="buttons">
+            <button onclick="startTimer()">START</button>
+            <button onclick="resetTimer()">RESET</button>
+        </div>
+        <audio id="alarmSound" src="alarm.mp3"></audio>
+    </div>
+
+    <script src="java.js"></script>
+</body>
+</html>
